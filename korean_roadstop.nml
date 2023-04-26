@@ -1,0 +1,321 @@
+// Korean Roadstop Set
+
+grf{
+	grfid: "KW\02\01";
+	name: string(STR_GRF_NAME);
+	desc: string(STR_GRF_DESC);
+	url: string(STR_GRF_URL);
+	version: 2;
+	min_compatible_version: 1;
+}
+
+spriteset(spr_bus_stop, "images/bus_stop.png") {
+	[   0,   55,   64,   35,  -31,   -4]
+	[  72,   55,   64,   39,  -31,   -8]
+	[ 144,   55,   64,   37,  -63,  -20]
+	[ 216,   55,   64,   40,   -1,  -23]
+	[   0,  103,   64,   35,   -1,  -19]
+	[  72,  103,   64,   39,  -31,   -8]
+	[ 144,  103,   64,   37,  -31,   -6]
+	[ 216,  103,   64,   40,  -61,  -24]
+	[   0,  151,   64,   35,  -63,  -18]
+	[  72,  151,   64,   39,   -1,  -23]
+	[ 144,  151,   64,   37,  -31,   -6]
+	[ 216,  151,   64,   40,  -31,   -9]
+	[ 288,  103,   64,   40,    1,  -23]
+	[ 360,  103,   64,   38,  -31,   -7]
+	[ 288,  151,   64,   40,  -31,   -9]
+	[ 360,  151,   64,   38,  -63,  -21]
+}
+
+spritelayout layout_bus_stop_NE {
+	ground { sprite: 0xA84; }
+	building {
+		sprite: spr_bus_stop(0);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		xextent: 16;
+		yextent: 1;
+		zextent: 16;
+	}
+	building {
+		sprite: spr_bus_stop(4);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		xoffset: 15;
+		xextent: 1;
+		yextent: 16;
+		zextent: 16;
+	}
+	building {
+		sprite: spr_bus_stop(8);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		yoffset: 15;
+		xextent: 16;
+		yextent: 1;
+		zextent: 16;
+	}
+}
+
+spritelayout layout_bus_stop_SE {
+	ground { sprite: 0xA85; }
+	building {
+		sprite: spr_bus_stop(1);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		xextent: 1;
+		yextent: 16;
+		zextent: 16;
+	}
+	building {
+		sprite: spr_bus_stop(5);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		xextent: 16;
+		yextent: 1;
+		zextent: 16;
+	}
+	building {
+		sprite: spr_bus_stop(9);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		xoffset: 15;
+		xextent: 1;
+		yextent: 16;
+		zextent: 16;
+	}
+}
+
+spritelayout layout_bus_stop_SW {
+	ground { sprite: 0xA86; }
+	building {
+		sprite: spr_bus_stop(2);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		yoffset: 15;
+		xextent: 16;
+		yextent: 1;
+		zextent: 16;
+	}
+	building {
+		sprite: spr_bus_stop(6);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		xextent: 1;
+		yextent: 16;
+		zextent: 16;
+	}
+	building {
+		sprite: spr_bus_stop(10);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		xextent: 16;
+		yextent: 1;
+		zextent: 16;
+	}
+}
+
+spritelayout layout_bus_stop_NW {
+	ground { sprite: 0xA87; }
+	building {
+		sprite: spr_bus_stop(3);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		xoffset: 15;
+		xextent: 1;
+		yextent: 16;
+		zextent: 16;
+	}
+	building {
+		sprite: spr_bus_stop(7);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		yoffset: 15;
+		xextent: 16;
+		yextent: 1;
+		zextent: 16;
+	}
+	building {
+		sprite: spr_bus_stop(11);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		xextent: 1;
+		yextent: 16;
+		zextent: 16;
+	}
+}
+
+spritelayout layout_bus_stop_X {
+	ground { sprite: LOAD_TEMP(1) + 1; }
+	building {
+		sprite: spr_bus_stop(13);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		xextent: 16;
+		yextent: 1;
+		zextent: 16;
+	}
+	building {
+		sprite: spr_bus_stop(15);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		yoffset: 15;
+		xextent: 16;
+		yextent: 1;
+		zextent: 16;
+	}
+}
+
+spritelayout layout_bus_stop_Y {
+	ground { sprite: LOAD_TEMP(1); }
+	building {
+		sprite: spr_bus_stop(14);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		xextent: 16;
+		yextent: 1;
+		zextent: 16;
+	}
+	building {
+		sprite: spr_bus_stop(12);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		xoffset: 15;
+		xextent: 1;
+		yextent: 16;
+		zextent: 16;
+	}
+}
+
+switch(FEAT_ROADSTOPS, SELF, sw_bus_stop_layout, view) {
+	RST_VIEW_BAY_NE: layout_bus_stop_NE;
+	RST_VIEW_BAY_SE: layout_bus_stop_SE;
+	RST_VIEW_BAY_SW: layout_bus_stop_SW;
+	RST_VIEW_BAY_NW: layout_bus_stop_NW;
+	RST_VIEW_DRIVE_THROUGH_X: layout_bus_stop_X;
+	default: layout_bus_stop_Y;
+}
+
+switch(FEAT_ROADSTOPS, SELF, sw_bus_stop, [STORE_TEMP(town_zone == TOWNZONE_OUTSKIRT || town_zone == TOWNZONE_EDGE ? 0x534 : 0x521, 1)]) {
+	sw_bus_stop_layout;
+}
+
+switch(FEAT_ROADSTOPS, SELF, sw_bus_stop_purchase, [STORE_TEMP(0x521, 1)]) {
+	sw_bus_stop_layout;
+}
+
+spritelayout layout_bus_stop_X1 {
+	ground { sprite: LOAD_TEMP(1) + 1; }
+	building {
+		sprite: spr_bus_stop(13);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		xextent: 16;
+		yextent: 1;
+		zextent: 16;
+	}
+}
+
+spritelayout layout_bus_stop_Y1 {
+	ground { sprite: LOAD_TEMP(1); }
+	building {
+		sprite: spr_bus_stop(14);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		xextent: 16;
+		yextent: 1;
+		zextent: 16;
+	}
+}
+
+switch(FEAT_ROADSTOPS, SELF, sw_bus_stop_single1_layout, view) {
+	RST_VIEW_DRIVE_THROUGH_X: layout_bus_stop_X1;
+	default: layout_bus_stop_Y1;
+}
+
+switch(FEAT_ROADSTOPS, SELF, sw_bus_stop_single1, [STORE_TEMP(town_zone == TOWNZONE_OUTSKIRT || town_zone == TOWNZONE_EDGE ? 0x534 : 0x521, 1)]) {
+	sw_bus_stop_single1_layout;
+}
+
+switch(FEAT_ROADSTOPS, SELF, sw_bus_stop_single1_purchase, [STORE_TEMP(0x521, 1)]) {
+	sw_bus_stop_single1_layout;
+}
+
+spritelayout layout_bus_stop_X2 {
+	ground { sprite: LOAD_TEMP(1) + 1; }
+	building {
+		sprite: spr_bus_stop(15);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		yoffset: 15;
+		xextent: 16;
+		yextent: 1;
+		zextent: 16;
+	}
+}
+
+spritelayout layout_bus_stop_Y2 {
+	ground { sprite: LOAD_TEMP(1); }
+	building {
+		sprite: spr_bus_stop(12);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		xoffset: 15;
+		xextent: 1;
+		yextent: 16;
+		zextent: 16;
+	}
+}
+
+switch(FEAT_ROADSTOPS, SELF, sw_bus_stop_single2_layout, view) {
+	RST_VIEW_DRIVE_THROUGH_X: layout_bus_stop_X2;
+	default: layout_bus_stop_Y2;
+}
+
+switch(FEAT_ROADSTOPS, SELF, sw_bus_stop_single2, [STORE_TEMP(town_zone == TOWNZONE_OUTSKIRT || town_zone == TOWNZONE_EDGE ? 0x534 : 0x521, 1)]) {
+	sw_bus_stop_single2_layout;
+}
+
+switch(FEAT_ROADSTOPS, SELF, sw_bus_stop_single2_purchase, [STORE_TEMP(0x521, 1)]) {
+	sw_bus_stop_single2_layout;
+}
+
+item(FEAT_ROADSTOPS, item_bus_stop, 0x00) {
+	property {
+		class: "KRB1";
+		availability_type: RST_AVAILABILITY_TYPE_PASSENGER;
+		name: string(STR_BUS_STOP_NAME);
+		classname: string(STR_BUS_STOP_CLASS_NAME);
+	}
+	graphics {
+		default: sw_bus_stop;
+		purchase: sw_bus_stop_purchase;
+	}
+}
+
+item(FEAT_ROADSTOPS, item_bus_stop_single1, 0x01) {
+	property {
+		class: "KRB1";
+		availability_type: RST_AVAILABILITY_TYPE_PASSENGER;
+		general_flags: bitmask(RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+		name: string(STR_BUS_STOP_SINGLE_NAME);
+	}
+	graphics {
+		default: sw_bus_stop_single1;
+		purchase: sw_bus_stop_single1_purchase;
+	}
+}
+
+item(FEAT_ROADSTOPS, item_bus_stop_single2, 0x02) {
+	property {
+		class: "KRB1";
+		availability_type: RST_AVAILABILITY_TYPE_PASSENGER;
+		general_flags: bitmask(RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+		name: string(STR_BUS_STOP_SINGLE_NAME);
+	}
+	graphics {
+		default: sw_bus_stop_single2;
+		purchase: sw_bus_stop_single2_purchase;
+	}
+}

@@ -1,0 +1,10 @@
+##grflangid 0x01
+
+# GRF name and description
+STR_GRF_NAME                                      :Korean Roadstop Set v0.2
+STR_GRF_DESC                                      :{WHITE}This newgrf provides Korean style roadstop tiles.{}{}{BLACK}Created by:{}{LTBLUE}  kiwitree{}{GREEN}  EightonEight 
+STR_GRF_URL                                       :https://github.com/kiwitreekor/korean_roadstop
+
+STR_BUS_STOP_CLASS_NAME                           :Korean Roadstops
+STR_BUS_STOP_NAME                                 :Bus stop
+STR_BUS_STOP_SINGLE_NAME                          :Bus stop (Single)

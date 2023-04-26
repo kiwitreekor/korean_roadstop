@@ -1,0 +1,10 @@
+##grflangid 0x3A
+
+# GRF name and description
+STR_GRF_NAME                                      :한국 정류장 세트 v0.2
+STR_GRF_DESC                                      :{WHITE}한국 스타일의 정류장 건물을 제공합니다.{}{}{BLACK}제작자:{}{LTBLUE}  kiwitree{}{GREEN}  EightonEight 
+STR_GRF_URL                                       :https://github.com/kiwitreekor/korean_roadstop
+
+STR_BUS_STOP_CLASS_NAME                           :한국식 정류장
+STR_BUS_STOP_NAME                                 :버스 정류장
+STR_BUS_STOP_SINGLE_NAME                          :버스 정류장 (한 쪽)
