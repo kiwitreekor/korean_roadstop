@@ -5,6 +5,12 @@ STR_GRF_NAME                                      :한국 정류장 세트 v0.2
 STR_GRF_DESC                                      :{WHITE}한국 스타일의 정류장 건물을 제공합니다.{}{}{BLACK}제작자:{}{LTBLUE}  kiwitree{}{GREEN}  EightonEight 
 STR_GRF_URL                                       :https://github.com/kiwitreekor/korean_roadstop
 
+STR_PARAM_PASSENGER_NAME                          :승객 그래픽 보이기
+STR_PARAM_PASSENGER_DESC                          :역에 대기하고 있는 승객을 그래픽으로 보여줍니다.
+STR_PARAM_PAVEMENT_NAME                           :도시 구역에 따라 도로 포장 
+STR_PARAM_PAVEMENT_DESC                           :도시의 외곽 지역과 내부 지역에 따라 도로 포장 상태를 변경합니다.
+
 STR_BUS_STOP_CLASS_NAME                           :한국식 정류장
 STR_BUS_STOP_NAME                                 :버스 정류장
 STR_BUS_STOP_SINGLE_NAME                          :버스 정류장 (한 쪽)
+STR_BUS_STOP_SIMPLE_NAME                          :간이 버스 정류장

@@ -5,6 +5,12 @@ STR_GRF_NAME                                      :Korean Roadstop Set v0.2
 STR_GRF_DESC                                      :{WHITE}This newgrf provides Korean style roadstop tiles.{}{}{BLACK}Created by:{}{LTBLUE}  kiwitree{}{GREEN}  EightonEight 
 STR_GRF_URL                                       :https://github.com/kiwitreekor/korean_roadstop
 
+STR_PARAM_PASSENGER_NAME                          :Show passenger graphics by waiting amount
+STR_PARAM_PASSENGER_DESC                          :If you set this setting on, it will show passenger graphics by waiting amount.
+STR_PARAM_PAVEMENT_NAME                           :Change pavement by town zone
+STR_PARAM_PAVEMENT_DESC                           :If you set this setting on, it will show road pavement dependent on town zone.
+
 STR_BUS_STOP_CLASS_NAME                           :Korean Roadstops
 STR_BUS_STOP_NAME                                 :Bus stop
 STR_BUS_STOP_SINGLE_NAME                          :Bus stop (Single)
+STR_BUS_STOP_SIMPLE_NAME                          :Simple Bus stop
