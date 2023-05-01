@@ -14,3 +14,5 @@ STR_BUS_STOP_CLASS_NAME                           :한국식 정류장
 STR_BUS_STOP_NAME                                 :버스 정류장
 STR_BUS_STOP_SINGLE_NAME                          :버스 정류장 (한 쪽)
 STR_BUS_STOP_SIMPLE_NAME                          :간이 버스 정류장
+STR_HIPASS_NAME                                   :하이패스
+STR_TOLLGATE_NAME                                 :요금소

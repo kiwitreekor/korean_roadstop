@@ -14,3 +14,5 @@ STR_BUS_STOP_CLASS_NAME                           :Korean Roadstops
 STR_BUS_STOP_NAME                                 :Bus stop
 STR_BUS_STOP_SINGLE_NAME                          :Bus stop (Single)
 STR_BUS_STOP_SIMPLE_NAME                          :Simple Bus stop
+STR_HIPASS_NAME                                   :Hipass tollgate
+STR_TOLLGATE_NAME                                 :Tollgate

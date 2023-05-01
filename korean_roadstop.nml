@@ -103,30 +103,30 @@ spritelayout layout_bus_stop_NE {
 		sprite: spr_bus_stop(0);
 		recolour_mode: RECOLOUR_REMAP;
 		palette: PALETTE_USE_DEFAULT;
-		xextent: 16; yextent: 1; zextent: 16;
+		xextent: 16; yextent: 1; zextent: 8;
 	}
 	building {
 		sprite: spr_bus_stop(4);
 		recolour_mode: RECOLOUR_REMAP;
 		palette: PALETTE_USE_DEFAULT;
-		xextent: 1; yextent: 16; zextent: 16;
+		xextent: 1; yextent: 16; zextent: 8;
 		xoffset: 15;
 	}
 	building {
 		sprite: spr_bus_stop(8);
 		recolour_mode: RECOLOUR_REMAP;
 		palette: PALETTE_USE_DEFAULT;
-		xextent: 16; yextent: 1; zextent: 16;
+		xextent: 16; yextent: 1; zextent: 8;
 		yoffset: 15;
 	}
 	building {
 		sprite: spr_bus_stop(spr_passenger + LOAD_TEMP(2));
-		xextent: 2; yextent: 16; zextent: 16;
+		xextent: 2; yextent: 16; zextent: 8;
 		xoffset: 12;
 	}
 	building {
 		sprite: spr_bus_stop(spr_passenger + LOAD_TEMP(2) + 1);
-		xextent: 16; yextent: 2; zextent: 16;
+		xextent: 16; yextent: 2; zextent: 8;
 		yoffset: 12;
 	}
 }
@@ -137,29 +137,29 @@ spritelayout layout_bus_stop_SE {
 		sprite: spr_bus_stop(1);
 		recolour_mode: RECOLOUR_REMAP;
 		palette: PALETTE_USE_DEFAULT;
-		xextent: 1; yextent: 16; zextent: 16;
+		xextent: 1; yextent: 16; zextent: 8;
 	}
 	building {
 		sprite: spr_bus_stop(5);
 		recolour_mode: RECOLOUR_REMAP;
 		palette: PALETTE_USE_DEFAULT;
-		xextent: 16; yextent: 1; zextent: 16;
+		xextent: 16; yextent: 1; zextent: 8;
 	}
 	building {
 		sprite: spr_bus_stop(9);
 		recolour_mode: RECOLOUR_REMAP;
 		palette: PALETTE_USE_DEFAULT;
-		xextent: 1; yextent: 16; zextent: 16;
+		xextent: 1; yextent: 16; zextent: 8;
 		xoffset: 15;
 	}
 	building {
 		sprite: spr_bus_stop(spr_passenger + LOAD_TEMP(2) + 3);
-		xextent: 16; yextent: 2; zextent: 16;
+		xextent: 16; yextent: 2; zextent: 8;
 		yoffset: 2;
 	}
 	building {
 		sprite: spr_bus_stop(spr_passenger + LOAD_TEMP(2));
-		xextent: 2; yextent: 16; zextent: 16;
+		xextent: 2; yextent: 16; zextent: 8;
 		xoffset: 12;
 	}
 }
@@ -170,29 +170,29 @@ spritelayout layout_bus_stop_SW {
 		sprite: spr_bus_stop(2);
 		recolour_mode: RECOLOUR_REMAP;
 		palette: PALETTE_USE_DEFAULT;
-		xextent: 16; yextent: 1; zextent: 16;
+		xextent: 16; yextent: 1; zextent: 8;
 		yoffset: 15;
 	}
 	building {
 		sprite: spr_bus_stop(6);
 		recolour_mode: RECOLOUR_REMAP;
 		palette: PALETTE_USE_DEFAULT;
-		xextent: 1; yextent: 16; zextent: 16;
+		xextent: 1; yextent: 16; zextent: 8;
 	}
 	building {
 		sprite: spr_bus_stop(10);
 		recolour_mode: RECOLOUR_REMAP;
 		palette: PALETTE_USE_DEFAULT;
-		xextent: 16; yextent: 1; zextent: 16;
+		xextent: 16; yextent: 1; zextent: 8;
 	}
 	building {
 		sprite: spr_bus_stop(spr_passenger + LOAD_TEMP(2) + 3);
-		xextent: 16; yextent: 2; zextent: 16;
+		xextent: 16; yextent: 2; zextent: 8;
 		yoffset: 2;
 	}
 	building {
 		sprite: spr_bus_stop(spr_passenger + LOAD_TEMP(2) + 2);
-		xextent: 2; yextent: 16; zextent: 16;
+		xextent: 2; yextent: 16; zextent: 8;
 		xoffset: 2;
 	}
 }
@@ -203,30 +203,30 @@ spritelayout layout_bus_stop_NW {
 		sprite: spr_bus_stop(3);
 		recolour_mode: RECOLOUR_REMAP;
 		palette: PALETTE_USE_DEFAULT;
-		xextent: 1; yextent: 16; zextent: 16;
+		xextent: 1; yextent: 16; zextent: 8;
 		xoffset: 15;
 	}
 	building {
 		sprite: spr_bus_stop(7);
 		recolour_mode: RECOLOUR_REMAP;
 		palette: PALETTE_USE_DEFAULT;
-		xextent: 16; yextent: 1; zextent: 16;
+		xextent: 16; yextent: 1; zextent: 8;
 		yoffset: 15;
 	}
 	building {
 		sprite: spr_bus_stop(11);
 		recolour_mode: RECOLOUR_REMAP;
 		palette: PALETTE_USE_DEFAULT;
-		xextent: 1; yextent: 16; zextent: 16;
+		xextent: 1; yextent: 16; zextent: 8;
 	}
 	building {
 		sprite: spr_bus_stop(spr_passenger + LOAD_TEMP(2) + 2);
-		xextent: 2; yextent: 16; zextent: 16;
+		xextent: 2; yextent: 16; zextent: 8;
 		xoffset: 2;
 	}
 	building {
 		sprite: spr_bus_stop(spr_passenger + LOAD_TEMP(2) + 1);
-		xextent: 16; yextent: 2; zextent: 16;
+		xextent: 16; yextent: 2; zextent: 8;
 		yoffset: 12;
 	}
 }
@@ -237,23 +237,23 @@ spritelayout layout_bus_stop_X {
 		sprite: spr_bus_stop(13);
 		recolour_mode: RECOLOUR_REMAP;
 		palette: PALETTE_USE_DEFAULT;
-		xextent: 16; yextent: 1; zextent: 16;
+		xextent: 16; yextent: 1; zextent: 8;
 	}
 	building {
 		sprite: spr_bus_stop(15);
 		recolour_mode: RECOLOUR_REMAP;
 		palette: PALETTE_USE_DEFAULT;
-		xextent: 16; yextent: 1; zextent: 16;
+		xextent: 16; yextent: 1; zextent: 8;
 		yoffset: 15;
 	}
 	building {
 		sprite: spr_bus_stop(spr_passenger + LOAD_TEMP(2) + 3);
-		xextent: 16; yextent: 2; zextent: 16;
+		xextent: 16; yextent: 2; zextent: 8;
 		yoffset: 2;
 	}
 	building {
 		sprite: spr_bus_stop(spr_passenger + LOAD_TEMP(2) + 1);
-		xextent: 16; yextent: 2; zextent: 16;
+		xextent: 16; yextent: 2; zextent: 8;
 		yoffset: 12;
 	}
 }
@@ -264,23 +264,23 @@ spritelayout layout_bus_stop_Y {
 		sprite: spr_bus_stop(14);
 		recolour_mode: RECOLOUR_REMAP;
 		palette: PALETTE_USE_DEFAULT;
-		xextent: 16; yextent: 1; zextent: 16;
+		xextent: 16; yextent: 1; zextent: 8;
 	}
 	building {
 		sprite: spr_bus_stop(12);
 		recolour_mode: RECOLOUR_REMAP;
 		palette: PALETTE_USE_DEFAULT;
-		xextent: 1; yextent: 16; zextent: 16;
+		xextent: 1; yextent: 16; zextent: 8;
 		xoffset: 15;
 	}
 	building {
 		sprite: spr_bus_stop(spr_passenger + LOAD_TEMP(2) + 2);
-		xextent: 2; yextent: 16; zextent: 16;
+		xextent: 2; yextent: 16; zextent: 8;
 		xoffset: 2;
 	}
 	building {
 		sprite: spr_bus_stop(spr_passenger + LOAD_TEMP(2));
-		xextent: 2; yextent: 16; zextent: 16;
+		xextent: 2; yextent: 16; zextent: 8;
 		xoffset: 12;
 	}
 }
@@ -311,11 +311,11 @@ spritelayout layout_bus_stop_X1 {
 		sprite: spr_bus_stop(13);
 		recolour_mode: RECOLOUR_REMAP;
 		palette: PALETTE_USE_DEFAULT;
-		xextent: 16; yextent: 1; zextent: 16;
+		xextent: 16; yextent: 1; zextent: 8;
 	}
 	building {
 		sprite: spr_bus_stop(spr_passenger + LOAD_TEMP(2) + 3);
-		xextent: 16; yextent: 2; zextent: 16;
+		xextent: 16; yextent: 2; zextent: 8;
 		yoffset: 2;
 	}
 }
@@ -326,29 +326,29 @@ spritelayout layout_bus_stop_Y1 {
 		sprite: spr_bus_stop(14);
 		recolour_mode: RECOLOUR_REMAP;
 		palette: PALETTE_USE_DEFAULT;
-		xextent: 16; yextent: 1; zextent: 16;
+		xextent: 16; yextent: 1; zextent: 8;
 	}
 	building {
 		sprite: spr_bus_stop(spr_passenger + LOAD_TEMP(2) + 2);
-		xextent: 2; yextent: 16; zextent: 16;
+		xextent: 2; yextent: 16; zextent: 8;
 		xoffset: 2;
 	}
 }
 
-switch(FEAT_ROADSTOPS, SELF, sw_bus_stop_single1_layout, view) {
+switch(FEAT_ROADSTOPS, SELF, sw_bus_stopA_layout, view) {
 	RST_VIEW_DRIVE_THROUGH_X: layout_bus_stop_X1;
 	default: layout_bus_stop_Y1;
 }
 
-switch(FEAT_ROADSTOPS, SELF, sw_bus_stop_single1, [
+switch(FEAT_ROADSTOPS, SELF, sw_bus_stopA, [
 	STORE_TEMP(sw_pavement(), 1),
 	STORE_TEMP(sw_passenger(), 2)
 ]) {
-	sw_bus_stop_single1_layout;
+	sw_bus_stopA_layout;
 }
 
-switch(FEAT_ROADSTOPS, SELF, sw_bus_stop_single1_purchase, [STORE_TEMP(0x521, 1)]) {
-	sw_bus_stop_single1_layout;
+switch(FEAT_ROADSTOPS, SELF, sw_bus_stopA_purchase, [STORE_TEMP(0x521, 1)]) {
+	sw_bus_stopA_layout;
 }
 
 spritelayout layout_bus_stop_X2 {
@@ -357,12 +357,12 @@ spritelayout layout_bus_stop_X2 {
 		sprite: spr_bus_stop(15);
 		recolour_mode: RECOLOUR_REMAP;
 		palette: PALETTE_USE_DEFAULT;
-		xextent: 16; yextent: 1; zextent: 16;
+		xextent: 16; yextent: 1; zextent: 8;
 		yoffset: 15;
 	}
 	building {
 		sprite: spr_bus_stop(spr_passenger + LOAD_TEMP(2) + 1);
-		xextent: 16; yextent: 2; zextent: 16;
+		xextent: 16; yextent: 2; zextent: 8;
 		yoffset: 12;
 	}
 }
@@ -373,30 +373,30 @@ spritelayout layout_bus_stop_Y2 {
 		sprite: spr_bus_stop(12);
 		recolour_mode: RECOLOUR_REMAP;
 		palette: PALETTE_USE_DEFAULT;
-		xextent: 1; yextent: 16; zextent: 16;
+		xextent: 1; yextent: 16; zextent: 8;
 		xoffset: 15;
 	}
 	building {
 		sprite: spr_bus_stop(spr_passenger + LOAD_TEMP(2));
-		xextent: 2; yextent: 16; zextent: 16;
+		xextent: 2; yextent: 16; zextent: 8;
 		xoffset: 12;
 	}
 }
 
-switch(FEAT_ROADSTOPS, SELF, sw_bus_stop_single2_layout, view) {
+switch(FEAT_ROADSTOPS, SELF, sw_bus_stopB_layout, view) {
 	RST_VIEW_DRIVE_THROUGH_X: layout_bus_stop_X2;
 	default: layout_bus_stop_Y2;
 }
 
-switch(FEAT_ROADSTOPS, SELF, sw_bus_stop_single2, [
+switch(FEAT_ROADSTOPS, SELF, sw_bus_stopB, [
 	STORE_TEMP(sw_pavement(), 1),
 	STORE_TEMP(sw_passenger(), 2)
 ]) {
-	sw_bus_stop_single2_layout;
+	sw_bus_stopB_layout;
 }
 
-switch(FEAT_ROADSTOPS, SELF, sw_bus_stop_single2_purchase, [STORE_TEMP(0x521, 1)]) {
-	sw_bus_stop_single2_layout;
+switch(FEAT_ROADSTOPS, SELF, sw_bus_stopB_purchase, [STORE_TEMP(0x521, 1)]) {
+	sw_bus_stopB_layout;
 }
 
 item(FEAT_ROADSTOPS, item_bus_stop, 0x00) {
@@ -412,7 +412,7 @@ item(FEAT_ROADSTOPS, item_bus_stop, 0x00) {
 	}
 }
 
-item(FEAT_ROADSTOPS, item_bus_stop_single1, 0x01) {
+item(FEAT_ROADSTOPS, item_bus_stopA, 0x01) {
 	property {
 		class: "KRB1";
 		availability_type: RST_AVAILABILITY_TYPE_PASSENGER;
@@ -420,12 +420,12 @@ item(FEAT_ROADSTOPS, item_bus_stop_single1, 0x01) {
 		name: string(STR_BUS_STOP_SINGLE_NAME);
 	}
 	graphics {
-		default: sw_bus_stop_single1;
-		purchase: sw_bus_stop_single1_purchase;
+		default: sw_bus_stopA;
+		purchase: sw_bus_stopA_purchase;
 	}
 }
 
-item(FEAT_ROADSTOPS, item_bus_stop_single2, 0x02) {
+item(FEAT_ROADSTOPS, item_bus_stopB, 0x02) {
 	property {
 		class: "KRB1";
 		availability_type: RST_AVAILABILITY_TYPE_PASSENGER;
@@ -433,8 +433,8 @@ item(FEAT_ROADSTOPS, item_bus_stop_single2, 0x02) {
 		name: string(STR_BUS_STOP_SINGLE_NAME);
 	}
 	graphics {
-		default: sw_bus_stop_single2;
-		purchase: sw_bus_stop_single2_purchase;
+		default: sw_bus_stopB;
+		purchase: sw_bus_stopB_purchase;
 	}
 }
 
@@ -447,23 +447,23 @@ spritelayout layout_bus_stop_simple_X {
 		sprite: spr_bus_stop(spr_simple + 1);
 		recolour_mode: RECOLOUR_REMAP;
 		palette: PALETTE_USE_DEFAULT;
-		xextent: 16; yextent: 1; zextent: 16;
+		xextent: 16; yextent: 1; zextent: 8;
 	}
 	building {
 		sprite: spr_bus_stop(spr_simple + 3);
 		recolour_mode: RECOLOUR_REMAP;
 		palette: PALETTE_USE_DEFAULT;
-		xextent: 16; yextent: 1; zextent: 16;
+		xextent: 16; yextent: 1; zextent: 8;
 		yoffset: 15;
 	}
 	building {
 		sprite: spr_bus_stop(spr_passenger + LOAD_TEMP(2) + 3);
-		xextent: 16; yextent: 2; zextent: 16;
+		xextent: 16; yextent: 2; zextent: 8;
 		yoffset: 2;
 	}
 	building {
 		sprite: spr_bus_stop(spr_passenger + LOAD_TEMP(2) + 1);
-		xextent: 16; yextent: 2; zextent: 16;
+		xextent: 16; yextent: 2; zextent: 8;
 		yoffset: 12;
 	}
 }
@@ -474,23 +474,23 @@ spritelayout layout_bus_stop_simple_Y {
 		sprite: spr_bus_stop(spr_simple + 2);
 		recolour_mode: RECOLOUR_REMAP;
 		palette: PALETTE_USE_DEFAULT;
-		xextent: 16; yextent: 1; zextent: 16;
+		xextent: 16; yextent: 1; zextent: 8;
 	}
 	building {
 		sprite: spr_bus_stop(spr_simple);
 		recolour_mode: RECOLOUR_REMAP;
 		palette: PALETTE_USE_DEFAULT;
-		xextent: 1; yextent: 16; zextent: 16;
+		xextent: 1; yextent: 16; zextent: 8;
 		xoffset: 15;
 	}
 	building {
 		sprite: spr_bus_stop(spr_passenger + LOAD_TEMP(2) + 2);
-		xextent: 2; yextent: 16; zextent: 16;
+		xextent: 2; yextent: 16; zextent: 8;
 		xoffset: 2;
 	}
 	building {
 		sprite: spr_bus_stop(spr_passenger + LOAD_TEMP(2));
-		xextent: 2; yextent: 16; zextent: 16;
+		xextent: 2; yextent: 16; zextent: 8;
 		xoffset: 12;
 	}
 }
@@ -521,5 +521,188 @@ item(FEAT_ROADSTOPS, item_bus_stop_simple, 0x05) {
 	graphics {
 		default: sw_bus_stop_simple;
 		purchase: sw_bus_stop_simple_purchase;
+	}
+}
+
+// 0x06: item_bus_stop_simpleA
+// 0x07: item_bus_stop_simpleB
+
+
+// hipass
+
+spriteset(spr_hipass, "images/hipass.png") {
+	[   0,   15,   64,   52,  -31,  -21]
+	[  72,   15,   64,   52,  -31,  -21]
+	[   0,   78,   64,   52,  -31,   -5]
+	[  72,   78,   64,   52,  -31,   -5]
+	[   0,  141,   64,   52,  -31,  -21]
+	[  72,  141,   64,   52,  -31,  -21]
+	[   0,  270,   64,   52,  -31,  -21]
+	[  72,  270,   64,   52,  -31,  -21]
+}
+
+spritelayout layout_hipass_X {
+	ground { sprite: 0x522; }
+	childsprite {
+		sprite: spr_hipass(7);
+		always_draw: 1;
+	}
+	building {
+		sprite: spr_hipass(5);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		xextent: 16; yextent: 2; zextent: 8;
+	}
+	building {
+		sprite: spr_hipass(3);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		xextent: 16; yextent: 16; zextent: 4;
+		zoffset: 16;
+	}
+}
+
+spritelayout layout_hipass_Y {
+	ground { sprite: 0x521; }
+	childsprite {
+		sprite: spr_hipass(6);
+		always_draw: 1;
+	}
+	building {
+		sprite: spr_hipass(4);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		xextent: 2; yextent: 16; zextent: 8;
+	}
+	building {
+		sprite: spr_hipass(2);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		xextent: 16; yextent: 16; zextent: 4;
+		zoffset: 16;
+	}
+	
+}
+
+switch(FEAT_ROADSTOPS, SELF, sw_hipass_layout, view) {
+	RST_VIEW_DRIVE_THROUGH_X: layout_hipass_X;
+	default: layout_hipass_Y;
+}
+
+item(FEAT_ROADSTOPS, item_hipass, 0x04) {
+	property {
+		class: "KRB1";
+		availability_type: RST_AVAILABILITY_TYPE_PASSENGER;
+		general_flags: bitmask(RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+		name: string(STR_HIPASS_NAME);
+	}
+	graphics {
+		default: sw_hipass_layout;
+	}
+}
+
+// 0x08: one-lane hipass
+
+// tollgate
+
+spriteset(spr_tollgate, "images/tollgate.png") {
+	[   0,   15,   64,   52,  -31,  -21]
+	[  72,   15,   64,   52,  -31,  -21]
+	[   0,   78,   64,   52,  -31,   -5]
+	[  72,   78,   64,   52,  -31,   -5]
+	[   0,  141,   64,   52,  -31,  -21]
+	[  72,  141,   64,   52,  -31,  -21]
+	[   0,  204,   64,   52,  -17,  -28]
+	[  72,  204,   64,   52,  -45,  -28]
+	[   0,  267,   64,   52,  -31,  -21]
+	[  72,  267,   64,   52,  -59,  -35]
+	[ 144,  204,   64,   52,  -31,  -21]
+	[ 216,  204,   64,   52,  -31,  -21]
+}
+
+spritelayout layout_tollgate_X {
+	ground { sprite: spr_tollgate(1); }
+	childsprite {
+		sprite: spr_tollgate(11);
+		always_draw: 1;
+	}
+	building {
+		sprite: spr_tollgate(5);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		xextent: 16; yextent: 2; zextent: 8;
+	}
+	building {
+		sprite: spr_tollgate(7);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		xextent: 16; yextent: 2; zextent: 8;
+		yoffset: 7;
+	}
+	building {
+		sprite: spr_tollgate(9);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		xextent: 16; yextent: 2; zextent: 8;
+		yoffset: 14;
+	}
+	building {
+		sprite: spr_tollgate(3);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		xextent: 16; yextent: 16; zextent: 4;
+		zoffset: 16;
+	}
+}
+
+spritelayout layout_tollgate_Y {
+	ground { sprite: spr_tollgate(0); }
+	childsprite {
+		sprite: spr_tollgate(10);
+		always_draw: 1;
+	}
+	building {
+		sprite: spr_tollgate(4);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		xextent: 2; yextent: 16; zextent: 8;
+	}
+	building {
+		sprite: spr_tollgate(6);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		xextent: 2; yextent: 16; zextent: 8;
+		xoffset: 7;
+	}
+	building {
+		sprite: spr_tollgate(8);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		xextent: 2; yextent: 16; zextent: 8;
+		xoffset: 14;
+	}
+	building {
+		sprite: spr_tollgate(2);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		xextent: 16; yextent: 16; zextent: 4;
+		zoffset: 16;
+	}
+}
+
+switch(FEAT_ROADSTOPS, SELF, sw_tollgate_layout, view) {
+	RST_VIEW_DRIVE_THROUGH_X: layout_tollgate_X;
+	default: layout_tollgate_Y;
+}
+
+item(FEAT_ROADSTOPS, item_tollgate, 0x03) {
+	property {
+		class: "KRB1";
+		availability_type: RST_AVAILABILITY_TYPE_PASSENGER;
+		general_flags: bitmask(RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+		name: string(STR_TOLLGATE_NAME);
+	}
+	graphics {
+		default: sw_tollgate_layout;
 	}
 }
