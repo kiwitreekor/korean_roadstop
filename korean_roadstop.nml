@@ -581,7 +581,6 @@ spritelayout layout_hipass_Y {
 		xextent: 16; yextent: 16; zextent: 4;
 		zoffset: 16;
 	}
-	
 }
 
 switch(FEAT_ROADSTOPS, SELF, sw_hipass_layout, view) {
@@ -601,7 +600,159 @@ item(FEAT_ROADSTOPS, item_hipass, 0x04) {
 	}
 }
 
-// 0x08: one-lane hipass
+spriteset(spr_hipass_onelane, "images/hipass.png") {
+spr_hipass_onelaneA:
+	[ 144,   15,   64,   52,  -31,  -21]
+	[ 216,   15,   64,   52,  -31,  -21]
+	[ 144,   78,   64,   52,  -15,  -29]
+	[ 216,   78,   64,   52,  -31,  -21]
+	[ 144,  141,   64,   52,  -15,  -13]
+	[ 216,  141,   64,   52,  -31,   -5]
+	[ 144,  270,   64,   52,  -31,  -21]
+	[ 216,  270,   64,   52,  -31,  -21]
+	[ 144,  335,   64,   52,  -31,  -21]
+	[ 216,  335,   64,   52,  -31,  -21]
+
+spr_hipass_onelaneB:
+	[ 288,   15,   64,   52,  -31,  -21]
+	[ 360,   15,   64,   52,  -31,  -21]
+	[ 288,   78,   64,   52,  -31,  -21]
+	[ 360,   78,   64,   52,  -47,  -29]
+	[ 288,  141,   64,   52,  -31,   -5]
+	[ 360,  141,   64,   52,  -47,  -13]
+	[ 288,  270,   64,   52,  -31,  -21]
+	[ 360,  270,   64,   52,  -31,  -21]
+	[ 288,  335,   64,   52,  -31,  -21]
+	[ 360,  335,   64,   52,  -31,  -21]
+}
+
+spritelayout layout_hipass_onelaneA_X {
+	ground { sprite: 0x522; }
+	childsprite {
+		sprite: spr_hipass_onelane(spr_hipass_onelaneA + 7 + LOAD_TEMP(3));
+		always_draw: 1;
+	}
+	building {
+		sprite: spr_hipass_onelane(spr_hipass_onelaneA + 3);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		xextent: 16; yextent: 2; zextent: 8;
+	}
+	building {
+		sprite: spr_hipass_onelane(spr_hipass_onelaneA + 5);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		xextent: 16; yextent: 8; zextent: 4;
+		zoffset: 16;
+	}
+}
+
+spritelayout layout_hipass_onelaneA_Y {
+	ground { sprite: 0x521; }
+	childsprite {
+		sprite: spr_hipass_onelane(spr_hipass_onelaneA + 6 + LOAD_TEMP(3));
+		always_draw: 1;
+	}
+	building {
+		sprite: spr_hipass_onelane(spr_hipass_onelaneA + 2);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		xextent: 2; yextent: 16; zextent: 8;
+		xoffset: 8;
+	}
+	building {
+		sprite: spr_hipass_onelane(spr_hipass_onelaneA + 4);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		xextent: 8; yextent: 16; zextent: 4;
+		xoffset: 8; zoffset: 16;
+	}
+}
+
+spritelayout layout_hipass_onelaneB_X {
+	ground { sprite: 0x522; }
+	childsprite {
+		sprite: spr_hipass_onelane(spr_hipass_onelaneB + 7 + LOAD_TEMP(3));
+		always_draw: 1;
+	}
+	building {
+		sprite: spr_hipass_onelane(spr_hipass_onelaneB + 3);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		xextent: 16; yextent: 2; zextent: 8;
+		yoffset: 8;
+	}
+	building {
+		sprite: spr_hipass_onelane(spr_hipass_onelaneB + 5);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		xextent: 16; yextent: 8; zextent: 4;
+		yoffset: 8; zoffset: 16;
+	}
+}
+
+spritelayout layout_hipass_onelaneB_Y {
+	ground { sprite: 0x521; }
+	childsprite {
+		sprite: spr_hipass_onelane(spr_hipass_onelaneB + 6 + LOAD_TEMP(3));
+		always_draw: 1;
+	}
+	building {
+		sprite: spr_hipass_onelane(spr_hipass_onelaneB + 2);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		xextent: 2; yextent: 16; zextent: 8;
+	}
+	building {
+		sprite: spr_hipass_onelane(spr_hipass_onelaneB + 4);
+		recolour_mode: RECOLOUR_REMAP;
+		palette: PALETTE_USE_DEFAULT;
+		xextent: 8; yextent: 16; zextent: 4;
+		zoffset: 16;
+	}
+}
+
+switch(FEAT_ROADSTOPS, SELF, sw_hipass_onelaneA_layout, view) {
+	RST_VIEW_DRIVE_THROUGH_X: layout_hipass_onelaneA_X;
+	default: layout_hipass_onelaneA_Y;
+}
+
+switch(FEAT_ROADSTOPS, SELF, sw_hipass_onelaneB_layout, view) {
+	RST_VIEW_DRIVE_THROUGH_X: layout_hipass_onelaneB_X;
+	default: layout_hipass_onelaneB_Y;
+}
+
+switch(FEAT_ROADSTOPS, SELF, sw_hipass_onelaneA, [STORE_TEMP(stop_type == RST_TYPE_TRUCK ? 2 : 0, 3)]) {
+	sw_hipass_onelaneA_layout;
+}
+
+switch(FEAT_ROADSTOPS, SELF, sw_hipass_onelaneB, [STORE_TEMP(stop_type == RST_TYPE_TRUCK ? 2 : 0, 3)]) {
+	sw_hipass_onelaneB_layout;
+}
+
+item(FEAT_ROADSTOPS, item_hipass_onelaneA, 0x08) {
+	property {
+		class: "KRB1";
+		availability_type: RST_AVAILABILITY_TYPE_PASSENGER | RST_AVAILABILITY_TYPE_FREIGHT;
+		general_flags: bitmask(RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+		name: string(STR_HIPASS_NAME);
+	}
+	graphics {
+		default: sw_hipass_onelaneA;
+	}
+}
+
+item(FEAT_ROADSTOPS, item_hipass_onelaneB, 0x09) {
+	property {
+		class: "KRB1";
+		availability_type: RST_AVAILABILITY_TYPE_PASSENGER | RST_AVAILABILITY_TYPE_FREIGHT;
+		general_flags: bitmask(RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+		name: string(STR_HIPASS_NAME);
+	}
+	graphics {
+		default: sw_hipass_onelaneB;
+	}
+}
 
 // tollgate
 
