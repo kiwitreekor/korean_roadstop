@@ -733,7 +733,7 @@ switch(FEAT_ROADSTOPS, SELF, sw_hipass_onelaneB, [STORE_TEMP(stop_type == RST_TY
 item(FEAT_ROADSTOPS, item_hipass_onelaneA, 0x08) {
 	property {
 		class: "KRB1";
-		availability_type: RST_AVAILABILITY_TYPE_PASSENGER | RST_AVAILABILITY_TYPE_FREIGHT;
+		availability_type: RST_AVAILABILITY_TYPE_ALL;
 		general_flags: bitmask(RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
 		name: string(STR_HIPASS_NAME);
 	}
@@ -745,7 +745,7 @@ item(FEAT_ROADSTOPS, item_hipass_onelaneA, 0x08) {
 item(FEAT_ROADSTOPS, item_hipass_onelaneB, 0x09) {
 	property {
 		class: "KRB1";
-		availability_type: RST_AVAILABILITY_TYPE_PASSENGER | RST_AVAILABILITY_TYPE_FREIGHT;
+		availability_type: RST_AVAILABILITY_TYPE_ALL;
 		general_flags: bitmask(RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
 		name: string(STR_HIPASS_NAME);
 	}
