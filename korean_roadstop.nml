@@ -5,7 +5,7 @@ grf{
 	name: string(STR_GRF_NAME);
 	desc: string(STR_GRF_DESC);
 	url: string(STR_GRF_URL);
-	version: 2;
+	version: 3;
 	min_compatible_version: 1;
 	
 	param 0 {
@@ -850,6 +850,58 @@ item(FEAT_ROADSTOPS, item_tollgate, 0x03) {
 	property {
 		class: "KRB1";
 		availability_type: RST_AVAILABILITY_TYPE_PASSENGER;
+		general_flags: bitmask(RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+		name: string(STR_TOLLGATE_NAME);
+	}
+	graphics {
+		default: sw_tollgate_layout;
+	}
+}
+
+// road waypoints
+
+item(FEAT_ROADSTOPS, item_waypoint_hipass, 0x104) {
+	property {
+		class: 0x01574BFF;
+		classname: string(STR_BUS_STOP_CLASS_NAME);
+		availability_type: RST_AVAILABILITY_TYPE_ALL;
+		general_flags: bitmask(RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+		name: string(STR_HIPASS_NAME);
+	}
+	graphics {
+		default: sw_hipass_layout;
+	}
+}
+
+item(FEAT_ROADSTOPS, item_waypoint_hipass_onelaneA, 0x108) {
+	property {
+		class: 0x01574BFF;
+		availability_type: RST_AVAILABILITY_TYPE_ALL;
+		general_flags: bitmask(RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+		name: string(STR_HIPASS_NAME);
+	}
+	graphics {
+		default: sw_hipass_onelaneA;
+	}
+}
+
+item(FEAT_ROADSTOPS, item_waypoint_hipass_onelaneB, 0x109) {
+	property {
+		class: 0x01574BFF;
+		availability_type: RST_AVAILABILITY_TYPE_ALL;
+		general_flags: bitmask(RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
+		name: string(STR_HIPASS_NAME);
+	}
+	graphics {
+		default: sw_hipass_onelaneB;
+	}
+}
+
+
+item(FEAT_ROADSTOPS, item_waypoint_tollgate, 0x103) {
+	property {
+		class: 0x01574BFF;
+		availability_type: RST_AVAILABILITY_TYPE_ALL;
 		general_flags: bitmask(RST_GENERAL_FLAG_DRIVE_THROUGH_ONLY);
 		name: string(STR_TOLLGATE_NAME);
 	}
